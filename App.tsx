@@ -1,7 +1,9 @@
-import { Stickers } from "./src/Stickers";
+import React from "react";
+
+import { LiquidSwipe } from "./src/LiquidSwipe/LiquidSwipe";
 
 const App = () => {
-  return <Stickers />;
+  return <LiquidSwipe />;
 };
 
 // eslint-disable-next-line import/no-default-export
