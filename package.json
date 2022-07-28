@@ -9,13 +9,21 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@shopify/react-native-skia": "0.1.136",
+    "@types/react": "~18.0.0",
+    "@types/react-native": "~0.69.1",
+    "eslint": "7",
     "expo": "~46.0.1",
     "expo-status-bar": "~1.4.0",
     "react": "18.0.0",
-    "react-native": "0.69.3"
+    "react-native": "0.69.3",
+    "react-native-gesture-handler": "~2.5.0",
+    "react-native-reanimated": "~2.9.1",
+    "react-native-redash": "^18.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "eslint-config-react-native-wcandillon": "^3.8.0"
   },
   "private": true
 }
